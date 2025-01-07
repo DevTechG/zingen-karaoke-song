@@ -10,8 +10,8 @@
     padding-block: var(--py-xl);
 }
 
-.px-xl {
-    padding-inline: var(--px-xl);
+.px-lg {
+    padding-inline: var(--px-lg);
 }
 
 .container {
@@ -19,6 +19,7 @@
     /* Media Queries Mobile */
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
     /* max-width: var(--max-width);
     width: calc(100% - var(--px-lg) * 2); */
 
@@ -41,8 +42,8 @@
     display: flex;
 }
 
-.items-center{
-    align-items: center;
+.items-center {
+  align-items: center;
 }
 
 .gap-1 {
